@@ -1,0 +1,86 @@
+html, body{
+	height: 100%;
+}
+
+.btn-menu{
+	position: absolute;
+	font-size: 25pt;
+	color: white;
+	margin: 20px 0px 0px 30px;
+	cursor:pointer
+}
+
+.parallax1{
+	background-image: url("../../img/image1.jpg");
+
+    /* Full height */
+	height: 100%; 
+
+    /* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2{
+	background-image: url("../../img/image2.jpeg");
+	position: relative;
+
+    /* Full height */
+	height: 90%; 
+
+    /* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax3{
+	background-image: url("../../img/image3.jpeg");
+	position: relative;
+
+    /* Full height */
+	height: 100%; 
+
+    /* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-div{
+	position: relative;
+}
+
+.margin-content{
+	padding: 5% 10% 5% 10%;
+	text-align: justify;
+	font-family: 'Slabo 27px', serif;
+	height: auto;
+}
+
+.margin-content{
+	position: relative;
+	padding: 5% 10% 5% 10%;
+	text-align: justify;
+	font-family: 'Slabo 27px', serif;
+	height: auto;
+}
+
+.margin-content p{
+	font-family: 'Slabo 27px', serif;
+}
+
+.header{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
